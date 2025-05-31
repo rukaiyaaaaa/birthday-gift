@@ -1,0 +1,124 @@
+.ubuntu-mono-regular {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-mono-bold {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-mono-regular-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+body{
+    font-family:"Ubuntu Mono", monospace;
+    text-align: center;
+    background-color: #EFB0C9;
+    color: #ffffff;
+}
+.img{
+    border: 5px solid #a2d2ff;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#dramy {  
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 6px;
+    background-color: #d8cefed4;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.801);
+    border-radius: 3px;
+    font-weight: 200;
+}
+
+#date{
+    font-weight: 200;
+    margin-top: 4px;
+    padding: 6px;
+    background-color: #d8cefed4;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.801);
+    border-radius: 3px;
+        margin-bottom: 0px;
+
+}
+.gift-section{
+    margin-top: 20px;
+
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.subtitle{
+    margin-top: 0;
+}
+.giftimg{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-image: url(images/gift.jpg);
+    background-size: cover;
+    border: 6px solid white;
+}
+
+.giftimg:hover{
+     background-image: url(images/happy.gif); 
+     background-size: cover;
+}
+.giftimg2{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-image: url(images/gift.jpg);
+    background-size: cover;
+    border: 6px solid white;
+}
+
+.giftimg2:hover{
+     background-image: url(images/surprise.gif); 
+     background-size:cover;
+}
+.giftimg3{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-image: url(images/gift.jpg);
+    background-size: cover;
+    border: 6px solid white;
+}
+
+
+.giftimg3:hover{
+     background-image: url(images/cute.gif); 
+     background-size:cover;
+}
+
+.giftimg4{
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    background-image: url(images/last.jpg);
+    background-size: cover;
+    border: 6px solid white;
+}
+
+
+.giftimg4:hover{
+     background-image: url(images/cake.gif); 
+     background-size:cover;
+}
+
+.foot{
+    width: 400px;
+    margin: 40 auto;
+}
